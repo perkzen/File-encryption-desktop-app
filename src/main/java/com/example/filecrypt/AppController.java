@@ -77,7 +77,6 @@ public class AppController implements Initializable {
         } else {
             privateKey = (PrivateKey) FileUtils.uploadObject(file);
         }
-
     }
 
     public void saveDecryptedFile() throws Exception {
